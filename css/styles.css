@@ -863,3 +863,7 @@ h4 {
 .newsletter-btn svg {
   fill: var(--secondary-color);
 }
+.newsletter-items {
+  display: flex;
+  justify-content: space-between;
+}
