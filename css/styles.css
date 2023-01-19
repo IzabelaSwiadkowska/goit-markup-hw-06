@@ -606,7 +606,6 @@ main {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
-  display: flex;
 }
 .close-btn {
   position: absolute;
@@ -788,8 +787,9 @@ h4 {
   line-height: 1.15;
   letter-spacing: 0.03em;
   margin-top: 40px;
-  margin-bottom: 12px;
-  padding-left: 40px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 .data {
   font-weight: 400;
@@ -797,23 +797,22 @@ h4 {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--alternative-color);
-  margin-left: 40px;
+  margin-top: 10px;
+}
+.name {
+  margin-top: 12px;
 }
 .input-modal {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 10px;
 }
 .putComments {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  margin-left: 40px;
+  resize: none;
 }
 .putComments::placeholder {
   font-weight: 400;
@@ -825,8 +824,6 @@ h4 {
 .check {
   width: 16px;
   height: 15px;
-  margin-left: 54px;
-  margin-top: 25px;
 }
 .politics {
   font-weight: 400;
@@ -847,7 +844,6 @@ h4 {
 .form-group-btn {
   width: 200px;
   height: 50px;
-  margin-left: 159px;
   margin-top: 30px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -859,6 +855,7 @@ h4 {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
+  align-items: center;
 }
 .newsletter-btn svg {
   fill: var(--secondary-color);
@@ -866,4 +863,10 @@ h4 {
 .newsletter-items {
   display: flex;
   justify-content: space-between;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
