@@ -1,1 +1,1 @@
-https://izabelaswiadkowska.github.io/goit-markup-hw-05/
+https://izabelaswiadkowska.github.io/goit-markup-hw-06/
