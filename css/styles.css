@@ -833,6 +833,7 @@ h4 {
 .check {
   width: 16px;
   appearance: none;
+  z-index: 9;
 }
 .politics {
   font-weight: 400;
@@ -842,7 +843,6 @@ h4 {
   color: #2196f3;
 }
 .politics-text {
-  position: relative;
   width: 100%;
   font-weight: 400;
   font-size: 14px;
@@ -920,7 +920,8 @@ h4 {
   width: 100%;
   display: flex;
   margin-top: 20px;
-  gap: 7px;
+  margin-left: 8px;
+  gap: 8px;
 }
 
 .name-field:hover svg,
@@ -971,7 +972,7 @@ h4 {
   border-radius: 2px;
   background-color: #2196f3;
 }
-.input-modal:not(:placeholder-shown) .field {
+.input-modal:not(:placeholder-shown):focus .name-field {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
