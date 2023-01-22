@@ -450,14 +450,22 @@
               name="comment"
               placeholder="Wprowadź tekst"
             ></textarea>
-
-            <input class="check" type="checkbox" disabled name="regulations" />
-            <label class="politics-text">
-              Oświadczam iż akceptuję
-              <a class="politics" href="#">Regulamin</a> i
-              <a class="politics" href="#">Politykę Prywatności.</a>
-            </label>
-
+            <div class="checkourpolitics">
+              <input
+                class="check"
+                type="checkbox"
+                value="accepted"
+                name="regulations"
+              />
+              <svg class="birdie" width="16" height="15">
+                <use href="./images/icons.svg#icon-Vector-1"></use>
+              </svg>
+              <label class="politics-text">
+                Oświadczam iż akceptuję
+                <a class="politics" href="#">Regulamin</a> i
+                <a class="politics" href="#">Politykę Prywatności.</a>
+              </label>
+            </div>
             <button class="form-group-btn" type="submit">Wyślij</button>
           </div>
         </form>
