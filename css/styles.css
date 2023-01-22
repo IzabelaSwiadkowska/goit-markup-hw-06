@@ -808,6 +808,7 @@ h4 {
   -webkit-appearance: none;
   appearance: none;
   border: none;
+  outline: 0;
 }
 
 .putComments {
