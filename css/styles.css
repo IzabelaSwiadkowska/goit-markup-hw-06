@@ -830,6 +830,8 @@ h4 {
   color: rgba(117, 117, 117, 0.5);
 }
 .check {
+  -moz-appearance: none;
+  -webkit-appearance: none;
   appearance: none;
 }
 .politics {
@@ -963,4 +965,8 @@ h4 {
   border: 0;
   border-radius: 2px;
   background-color: #2196f3;
+}
+.input-modal:not(:placeholder-shown) + .field {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
