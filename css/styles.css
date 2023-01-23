@@ -904,7 +904,7 @@ h4 {
 .icon-phone {
   margin: 11px 12px;
 }
-.email-field {
+.modal-field {
   display: flex;
   width: 100%;
   height: 40px;
@@ -924,33 +924,16 @@ h4 {
   gap: 8px;
 }
 
-.name-field:hover svg,
-.name-field:focus svg {
+.modal-field:hover svg,
+.modal-field:focus svg {
   fill: #2196f3;
 }
-.name-field:hover,
-.name-field:focus {
+.modal-field:hover,
+.modal-field:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.phone-field:hover svg,
-.phone-field:focus svg {
-  fill: #2196f3;
-}
-.phone-field:hover,
-.phone-field:focus {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
-.email-field:hover svg,
-.email-field:focus svg {
-  fill: #2196f3;
-}
-.email-field:hover,
-.email-field:focus {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
+
 .putComments:hover,
 .putComments:focus {
   border: 1px solid #2196f3;
@@ -972,7 +955,10 @@ h4 {
   border-radius: 2px;
   background-color: #2196f3;
 }
-.input-modal:not(:placeholder-shown):focus .name-field {
+.modal-field:has(input:focus) {
   border: 1px solid #2196f3;
   border-radius: 4px;
+}
+.modal-field:has(input:focus) svg {
+  fill: #2196f3;
 }
