@@ -786,7 +786,8 @@ main {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.newsletter-btn:active {
+.newsletter-btn:active,
+.newsletter-btn:hover {
   box-shadow: inset 200px 0 0 0 #1869ac;
 }
 
@@ -880,7 +881,8 @@ h4 {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-group-btn:active {
+.form-group-btn:active,
+.form-group-btn:hover {
   box-shadow: inset 200px 0 0 0 #1869ac;
 }
 .newsletter-btn svg {
