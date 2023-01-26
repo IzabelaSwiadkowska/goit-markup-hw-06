@@ -626,7 +626,7 @@ main {
   top: 16.67%;
 }
 .backdrop {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
