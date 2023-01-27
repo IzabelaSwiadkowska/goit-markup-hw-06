@@ -637,6 +637,7 @@ main {
   background: rgba(0, 0, 0, 0.2);
   transition-property: visibility, opacity, transform;
   transition-duration: 1s;
+  z-index: 2;
 }
 .label {
   width: 370px;
